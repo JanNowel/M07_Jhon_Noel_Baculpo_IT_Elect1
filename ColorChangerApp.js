@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Button, StyleSheet } from 'react-native';
 
-export default function ColorChanger() {
+export default function ColorChangerApp() {
   const [bgColor, setBgColor] = useState('black'); // default white
 
   return (

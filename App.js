@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Button, StyleSheet } from 'react-native';
 import CounterApp from './CounterApp';
-import ColorChanger from './ColorChanger';
+import ColorChanger from './ColorChangerApp';
 
 export default function App() {
   const [showCounter, setShowCounter] = useState(true);
